@@ -1,6 +1,6 @@
-# Functions 2
-
-library(dplyr)
+require(rgeos)
+require(dplyr)
+require(parallel)
 
 # gBuffer ----------------------------------------------------------------------
 gBuffer_chunks <- function(sdf,width,chunk_size,mc.cores=1){
