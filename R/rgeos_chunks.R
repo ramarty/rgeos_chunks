@@ -1,4 +1,5 @@
 require(rgeos)
+library(sp)
 require(dplyr)
 require(parallel)
 
